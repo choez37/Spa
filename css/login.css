@@ -1,0 +1,24 @@
+/*-----------------------------------------
+18. ESTILOS PARA "#Login spa" 
+------------------------------------------*/    /* la primera linea body sirve para ubicar la imagen ,la segunda parea que no se repita y la tecera es para que se agrande a su tamaño original, el cuarto es para ponee modo celular */
+body{
+    background-image: url(../images/imagen\ login.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+ }
+
+ .formulario{
+     background:rgba(0,0,0.5);
+ }
+ .ingresar{
+     background:  #000306;
+     color: rgb(255, 255, 255);
+ }
+ .input-group-prepend span{
+    width: 50px;
+    background-color: #000306;
+    color: rgb(255, 255, 255);
+    border:0 !important;
+    }
